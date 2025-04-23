@@ -36,6 +36,6 @@ public class Supplier {
     @NotBlank(message = "Contact number is required")
     private String contactNumber;
 
-    @OneToMany(mappedBy = "supplier")
+    @OneToMany(mappedBy = "supplier", cascade = CascadeType.ALL)
     private List<Product> product;
 }
