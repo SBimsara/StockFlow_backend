@@ -38,7 +38,7 @@ public class Product {
     @JoinColumn(name = "supplier_id")
     private Supplier supplier;
 
-    @ManyToMany
-    private List<Warehouse> warehouses;
+    // @ManyToMany(mappedBy = "products")
+    // private List<Warehouse> warehouses;
 
 }
