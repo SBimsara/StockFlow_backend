@@ -3,12 +3,14 @@ package com.sithirabimsara.stockflow.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.sithirabimsara.stockflow.dto.WarehouseRequestDTO;
 import com.sithirabimsara.stockflow.dto.WarehouseResponseDTO;
 import com.sithirabimsara.stockflow.entity.Warehouse;
 import com.sithirabimsara.stockflow.repo.WarehouseRepo;
 
+@Service
 public class WarehouseService {
 
 

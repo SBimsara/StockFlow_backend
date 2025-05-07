@@ -31,7 +31,7 @@ public class Customer {
     @NotBlank(message = "Contact number is required")
     private String contactNumber;
 
-    @OneToMany(mappedBy = "customer")
-    private List<Order> orders;
+    // @OneToMany(mappedBy = "customer")
+    // private List<Order> orders;
 
 }
